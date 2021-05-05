@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-yourpay-integration-sumup" version="0.0.1">
+  <name>SumupPlugin</name>
+
+  <description>Sumup integration through Cordova for Yourpay.</description>
+  <license>MIT</license>
+
+  <keywords>cordova,android,sumup,yourpay,payment</keywords>
+  <repo>https://github.com/YourpayPayments/Point-Of-Sale-Integration-Sumup.git</repo>
+  <issue>https://github.com/YourpayPayments/POS/issues</issue>
+
+  <engines>
+    <engine name="cordova" version=">=3.0.0"/>
+  </engines>
+
+  <js-module src="www/sumup.js" name="sumupPlugin">
+    <clobbers target="window.plugins.sumupPlugin" />
+  </js-module>
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="SumupPlugin">
+        <param name="android-package" value="io.sumup.SumupPlugin"/>
+      </feature>
+    </config-file>
+    <source-file src="src/android/SumupPlugin.java" target-dir="src/io/sumup" />
+  </platform>
+</plugin>
