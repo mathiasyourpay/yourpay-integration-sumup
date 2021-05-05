@@ -1,56 +1,56 @@
 {
-  "_from": "git+https://github.com/YourpayPayments/cordova-plugin-integration-payworks.git",
+  "_from": "git+https://github.com/mathiasyourpay/yourpay-integration-sumup.git",
   "_id": "cordova-yourpay-integration-payworks@0.0.1",
   "_inBundle": false,
   "_integrity": "",
-  "_location": "/cordova-yourpay-integration-payworks",
+  "_location": "/cordova-yourpay-integration-Sumup",
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "https://github.com/YourpayPayments/cordova-plugin-integration-payworks.git",
-    "rawSpec": "https://github.com/YourpayPayments/cordova-plugin-integration-payworks.git",
-    "saveSpec": "git+https://github.com/YourpayPayments/cordova-plugin-integration-payworks.git",
-    "fetchSpec": "https://github.com/YourpayPayments/cordova-plugin-integration-payworks.git",
+    "raw": "https://github.com/mathiasyourpay/yourpay-integration-sumup.git",
+    "rawSpec": "https://github.com/mathiasyourpay/yourpay-integration-sumup.git",
+    "saveSpec": "git+https://github.com/mathiasyourpay/yourpay-integration-sumup.git",
+    "fetchSpec": "https://github.com/mathiasyourpay/yourpay-integration-sumup.git",
     "gitCommittish": null
   },
   "_requiredBy": [
     "#DEV:/",
     "#USER"
   ],
-  "_resolved": "git+https://github.com/YourpayPayments/cordova-plugin-integration-payworks.git#71ec100c6995c9f17fd897d67371894aa00f2a62",
-  "_spec": "https://github.com/YourpayPayments/cordova-plugin-integration-payworks.git",
+  "_resolved": "git+https://github.com/mathiasyourpay/yourpay-integration-sumup.git",
+  "_spec": "https://github.com/mathiasyourpay/yourpay-integration-sumup.git",
   "_where": "C:\\POS_APP",
   "author": {
     "name": "Mathias Gajhede",
     "email": "mag@yourpay.io"
   },
   "bugs": {
-    "url": "https://github.com/YourpayPayments/POS/issues"
+    "url": "https://github.com/mathiasyourpay/yourpay-integration-sumup/issues"
   },
   "bundleDependencies": false,
   "cordova": {
-    "id": "cordova-yourpay-integration-payworks",
+    "id": "cordova-yourpay-integration-Sumup",
     "platforms": [
       "android"
     ]
   },
   "deprecated": false,
-  "description": "Payworks integration for Yourpay",
+  "description": "Sumup integration for Yourpay",
   "engines": [
     {
       "name": "cordova",
       "version": ">=3.0.0"
     }
   ],
-  "homepage": "https://github.com/YourpayPayments/POS/",
+  "homepage": "https://github.com/mathiasyourpay/yourpay-integration-sumup",
   "keywords": [
     "Payment",
-    "Paworks",
+    "Sumup",
     "ecosystem:cordova",
     "cordova-android"
   ],
   "license": "MIT",
-  "name": "cordova-yourpay-integration-payworks",
+  "name": "cordova-yourpay-integration-sumup",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YourpayPayments/Point-Of-Sale-Integration-Payworks.git"
