@@ -9,13 +9,8 @@ SumupPlugin.prototype.login = function(successCallback,errorCallback){
     options.method = "login";
     cordova.exec(successCallback, errorCallback, 'SumupPlugin', "login", [options])
 }
-SumupPlugin.prototype.pay = function(successCallback,errorCallback){
-    var options = {};
-    options.amount=200;
-    options.currency="DKK";
-    options.email="msp@yourpay.io";
-    options.tel ="70555678";
-    cordova.exec(successCallback, errorCallback, 'SumupPlugin', "pay", [8,"DKK","msp@yourpay.io",70555678])
+SumupPlugin.prototype.pay = function(amount,successCallback,errorCallback){
+    cordova.exec(successCallback, errorCallback, 'SumupPlugin', "pay", [amount,"DKK","msp@yourpay.io",70555678])
 }
 SumupPlugin.prototype.payWithToken = function(successCallback,errorCallback){
     var options = {};
